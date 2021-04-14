@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/richmond-garage/static/css/main.e7e0a62f.chunk.css",
+    "main.js": "/richmond-garage/static/js/main.779e1fac.chunk.js",
+    "main.js.map": "/richmond-garage/static/js/main.779e1fac.chunk.js.map",
+    "runtime-main.js": "/richmond-garage/static/js/runtime-main.27cd04f2.js",
+    "runtime-main.js.map": "/richmond-garage/static/js/runtime-main.27cd04f2.js.map",
+    "static/js/2.e7820c54.chunk.js": "/richmond-garage/static/js/2.e7820c54.chunk.js",
+    "static/js/2.e7820c54.chunk.js.map": "/richmond-garage/static/js/2.e7820c54.chunk.js.map",
+    "static/js/3.53eab9be.chunk.js": "/richmond-garage/static/js/3.53eab9be.chunk.js",
+    "static/js/3.53eab9be.chunk.js.map": "/richmond-garage/static/js/3.53eab9be.chunk.js.map",
+    "index.html": "/richmond-garage/index.html",
+    "static/css/main.e7e0a62f.chunk.css.map": "/richmond-garage/static/css/main.e7e0a62f.chunk.css.map",
+    "static/js/2.e7820c54.chunk.js.LICENSE.txt": "/richmond-garage/static/js/2.e7820c54.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27cd04f2.js",
+    "static/js/2.e7820c54.chunk.js",
+    "static/css/main.e7e0a62f.chunk.css",
+    "static/js/main.779e1fac.chunk.js"
+  ]
+}
