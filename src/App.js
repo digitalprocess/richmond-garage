@@ -1,11 +1,12 @@
-// import logo from './logo.svg'
 import './App.css'
+import Toggler from './Toggler'
 
-export default function App() {
+export default function App() {	
 	return (
 		<main className="layout">
 			<header>
 				<h1 className="logo">Richmond Garage</h1>
+				<Toggler />
 			</header>
 			<section>
 				<h2>Covers</h2>
