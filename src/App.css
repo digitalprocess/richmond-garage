@@ -340,13 +340,13 @@ button.small {
 	--footerBackground: var(--darkGrey);
 }
 
-.dark-mode-toggler {
+.toggle {
     position: fixed;
-    top: 1rem;
+    top: 12px;
     right: 20px;
 }
 
-.dark-mode-toggler input[type='checkbox'] + label::before {
+.toggle input[type='checkbox'] + label::before {
     content: '';
     display: block;
     height: 26px;
@@ -359,7 +359,7 @@ button.small {
     left: -65px;
 }
 
-.dark-mode-toggler input[type='checkbox'] + label::after {
+.toggle input[type='checkbox'] + label::after {
     content: '';
     display: block;
     height: 20px;
@@ -373,13 +373,13 @@ button.small {
     transition: all 0.4s ease-in;
 }
 
-.dark-mode-toggler input[type='checkbox']:checked + label::after {
+.toggle input[value='dark'] + label::after {
     left: -28px;
-    background: #000;
+    background: var(--headerBackground);
     border: 2px solid #fff;
     transition: all 0.4s ease-in;
 }
 
-.dark-mode-toggler input[type='checkbox'] {
+.toggle input[type='checkbox'] {
     display: none;
 }
