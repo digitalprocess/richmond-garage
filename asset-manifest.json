@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/richmond-garage/static/css/main.631522e3.chunk.css",
-    "main.js": "/richmond-garage/static/js/main.d8f6f143.chunk.js",
-    "main.js.map": "/richmond-garage/static/js/main.d8f6f143.chunk.js.map",
+    "main.js": "/richmond-garage/static/js/main.ec273d29.chunk.js",
+    "main.js.map": "/richmond-garage/static/js/main.ec273d29.chunk.js.map",
     "runtime-main.js": "/richmond-garage/static/js/runtime-main.2798317f.js",
     "runtime-main.js.map": "/richmond-garage/static/js/runtime-main.2798317f.js.map",
     "static/js/2.bfe31f96.chunk.js": "/richmond-garage/static/js/2.bfe31f96.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2798317f.js",
     "static/js/2.bfe31f96.chunk.js",
     "static/css/main.631522e3.chunk.css",
-    "static/js/main.d8f6f143.chunk.js"
+    "static/js/main.ec273d29.chunk.js"
   ]
 }
