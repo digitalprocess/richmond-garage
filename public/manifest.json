@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Richmond Garage",
+  "name": "List of songs for Richmond Garage",
   "icons": [
     {
       "src": "favicon.ico",

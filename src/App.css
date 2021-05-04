@@ -1,6 +1,7 @@
 :root {
 	/* Define Colors as colors */
 	--green: #00ebc7;
+	--orange: #ff8906;
 	--red: #ff5470;
 	--yellow: #fde24f;
 	--black: #333;
@@ -15,6 +16,7 @@
 	--danger: var(--red);
 	--background: var(--lightGrey);
 	--textColor: var(--black);
+	--buttonColor: var(--primary);
 	--buttonTextColor: var(--black);
 	--lineColor: var(--grey);
 	--cardBg: var(--white);
@@ -164,8 +166,6 @@ dl {
 
 dt {
 	background: var(--primary);
-	border-bottom: var(--line);
-	border-top: var(--line);
 	color: var(--buttonTextColor);
 	margin: 0;
 	padding: 2px 0 0 12px;
@@ -182,6 +182,7 @@ dd {
 	padding: 0 0 0 12px;
 	white-space: nowrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 dd + dd {
@@ -232,7 +233,6 @@ hr {
 }
 
 button {
-	--buttonColor: var(--primary);
 	appearance: none;
 	color: var(--buttonTextColor);
 	background-color: var(--buttonColor);
@@ -261,9 +261,10 @@ button.small {
 	font-size: var(--smallText);
 }
 
-.layout {
+main {
 	/* top padding header height + whatever visual padding we want */
 	padding: calc(0rem + var(--headerHeight)) var(--containerPadding);
+	transition: all .3s ease-in;
 }
 
 .grid {
@@ -336,50 +337,52 @@ button.small {
 	--background: var(--black);
 	--textColor: var(--lightGrey);
 	--headerBackground: var(--darkGrey);
+	--primary: var(--orange);
 	--buttonTextColor: var(--black);
 	--footerBackground: var(--darkGrey);
 }
 
 .toggle {
-    position: fixed;
-    top: 12px;
-    right: 20px;
+	position: relative;
+}
+
+.toggle label {
+	display: inline-block;
 }
 
 .toggle input[type='checkbox'] + label::before {
-    content: '';
-    display: block;
-    height: 26px;
-    width: 60px;
-    background: #fff;
-    border: 2px solid #96979c;
-    border-radius: 15px;
-    position: absolute;
-    top: 0px;
-    left: -65px;
+	content: '';
+	display: block;
+	height: 26px;
+	width: 60px;
+	background: var(--headerBackground);
+	border: 2px solid var(--textColor);
+	border-radius: 15px;
+	position: absolute;
+	top: 0px;
+	left: -65px;
 }
 
 .toggle input[type='checkbox'] + label::after {
-    content: '';
-    display: block;
-    height: 20px;
-    width: 20px;
-    background: #96979c;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 3px;
-    left: -62px;
-    transition: all 0.4s ease-in;
+	content: '';
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: var(--textColor);
+	border: 2px solid var(--textColor);
+	border-radius: 50%;
+	position: absolute;
+	top: 3px;
+	left: -62px;
+	transition: all 0.4s ease-in;
 }
 
-.toggle input[value='dark'] + label::after {
-    left: -28px;
-    background: var(--headerBackground);
-    border: 2px solid #fff;
-    transition: all 0.4s ease-in;
+.toggle input[type="checkbox"]:checked
++ label::after {
+	left: -28px;
+	transition: all 0.4s ease-in;
 }
 
 .toggle input[type='checkbox'] {
-    display: none;
+	display: none;
 }
