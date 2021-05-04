@@ -377,8 +377,7 @@ main {
 	transition: all 0.4s ease-in;
 }
 
-.toggle input[type="checkbox"]:checked
-+ label::after {
+.toggle input[value='dark'] + label::after {
 	left: -28px;
 	transition: all 0.4s ease-in;
 }
