@@ -15,7 +15,13 @@ export default function Header() {
 	return (
 		<header>
 			<h1 className="logo">Richmond Garage</h1>
-			<Toggle id="toggle" value={theme} onClick={toggleTheme} />
+			<Toggle
+				id="toggle"
+				value={theme}
+				aria="Toggle Theme"
+				onClick={toggleTheme}
+				checked={theme === 'dark' ? 'checked' : ''}
+			/>
 		</header>
 	)
 }
