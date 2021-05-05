@@ -12,15 +12,17 @@ export default function Header() {
 			setTheme('dark')
 		}
 	}
+
+	const isDarkTheme = theme === 'dark'
+
 	return (
 		<header>
 			<h1 className="logo">Richmond Garage</h1>
 			<Toggle
-				id="toggle"
-				value={theme}
-				aria="Toggle Theme"
+				id="toggle-theme"
+				value={isDarkTheme}
+				title="Toggle Theme"
 				onClick={toggleTheme}
-				checked={theme === 'dark' ? 'checked' : ''}
 			/>
 		</header>
 	)

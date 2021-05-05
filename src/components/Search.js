@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function Search({ arr }) {
 	const [searchTerm, setSearchTerm] = React.useState('')
@@ -17,7 +17,7 @@ export default function Search({ arr }) {
 	// console.log(typeof covers)
 	// console.log(arr)
 
-	React.useEffect(() => {
+	useEffect(() => {
 		const results = arr.filter(item =>
 			item.toLowerCase().includes(searchTerm)
 		)
