@@ -342,10 +342,6 @@ main {
 	--footerBackground: var(--darkGrey);
 }
 
-.toggle {
-	position: relative;
-}
-
 .toggle label {
 	display: inline-block;
 }
@@ -384,4 +380,8 @@ main {
 
 .toggle input[type='checkbox'] {
 	display: none;
+}
+
+.theme-toggle {
+	position: relative;
 }
