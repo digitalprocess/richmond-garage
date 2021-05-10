@@ -51,6 +51,7 @@ export default function Main() {
 					<dt>G</dt>
 					<dd>Grateful Dead - Eyes of the World </dd>
 					<dd>Grateful Dead - Scarlet Begonias </dd>
+					<dd>Grateful Dead - West L.A. Fadeaway </dd>
 				</dl>
 				<dl>
 					<dt>H</dt>
@@ -61,6 +62,7 @@ export default function Main() {
 					<dd>Lady Gaga - Shallow </dd>
 					<dd>Led Zeppelin - Since I've Been Loving You</dd>
 					<dd>Lynyrd Skynyrd - Simple Man</dd>
+					<dd>Lynyrd Skynyrd - That Smell</dd>
 				</dl>
 				<dl>
 					<dt>M</dt>
@@ -118,6 +120,11 @@ export default function Main() {
 					<dd>Tom Petty - Refugee </dd>
 					<dd>Tom Petty - I Won’t Back Down </dd>
 					<dd>Marshall Tucker - Can’t You See </dd>
+				</dl>
+				<dl>
+					<dt>V</dt>
+					<dd>SRV - Cold Shot</dd>
+					<dd>SRV - Pride and Joy</dd>
 				</dl>
 				<dl>
 					<dt>W</dt>
